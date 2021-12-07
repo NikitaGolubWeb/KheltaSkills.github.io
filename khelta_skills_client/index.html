@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Khelta</title>
+    <link rel='stylesheet' href='css/styles.css'>
+  </head>
+  <body>
+    <div class='container'>
+      <section id="section-attributes">
+        <button id='save-all-button' class='button'>save</button>
+        <h4 class="title title--large">Атрибуты</h4>
+        <div class='grid'>
+          <div class='grid__item skill-group tile'>
+            <header class='skill-group__header'>
+              <h4 class='skill-group__title title title--small'>Физические</h4>
+            </header>
+            <ul class='skill-group__body skill-list'>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Сила</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Ловкость</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Выносливость</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class='grid__item skill-group tile'>
+            <header class='skill-group__header'>
+              <h4 class='skill-group__title title title--small'>Социальные</h4>
+            </header>
+            <ul class='skill-group__body skill-list'>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Харизма</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Манипулирование</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Внушительность</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class='grid__item skill-group tile'>
+            <header class='skill-group__header'>
+              <h4 class='skill-group__title title title--small'>Ментальные</h4>
+            </header>
+            <ul class='skill-group__body skill-list'>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Интеллект</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Остроумие</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Решимость</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="section-skills">
+        <h4 class="title title--large">Навыки</h4>
+        <div class='grid'>
+          <div class='grid__item skill-group tile'>
+            <header class='skill-group__header'>
+              <h4 class='skill-group__title title title--small'>Физические</h4>
+            </header>
+            <ul class='skill-group__body skill-list'>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Атлетика</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Бой без оружия</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Ремесло</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Вождение</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Огнестрельное оружие</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Воровство</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Ближний бой</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Скрытность</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Выживание</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class='grid__item skill-group tile'>
+            <header class='skill-group__header'>
+              <h4 class='skill-group__title title title--small'>Социальные</h4>
+            </header>
+            <ul class='skill-group__body skill-list'>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Зоология</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Этикет</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Проницательность</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Запугивание</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Лидерство</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Выступление</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Убеждение</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Знание улиц</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Обман</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class='grid__item skill-group tile'>
+            <header class='skill-group__header'>
+              <h4 class='skill-group__title title title--small'>Ментальные</h4>
+            </header>
+            <ul class='skill-group__body skill-list'>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Образование</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Внимательность</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Бухгалтерия</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Расследовние</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Медицина</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Оккультизм</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Политика</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Наука</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+              <li class='skill-list__item skill'>
+                <span class='skill__name'>Технологии</span>
+                <ul class='skill__value point-list'>
+                  <li class='point-list__item' data-point-price='6'></li>
+                  <li class='point-list__item' data-point-price='4'></li>
+                  <li class='point-list__item' data-point-price='3'></li>
+                  <li class='point-list__item' data-point-price='2'></li>
+                  <li class='point-list__item' data-point-price='1'></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+
+    <script src='js/scripts.js'></script>
+  </body>
+</html>
